@@ -1,0 +1,4 @@
+input           output
+5               Your level of educational attainment is primary level eduction.
+9               Your level of educational attainment is secondary level education.
+15              Your level of educational attainment is tertiary level education.

@@ -1,0 +1,4 @@
+name            age         fraction            output
+Julia Smith     45          0.8                 Your name is Julia Smith, you are 45 years old and your employment fraction 0.8.
+Lionel Messi    36          1.0                 Your name is Lionel Messi, you are 36 years old and your employment fraction 1.0.
+Jennie H        20          0.5                 Your name is Jennie H, you are 20 years old and your employment fraction 0.5.     

@@ -1,0 +1,4 @@
+input           output
+0               0 degrees Celsius is 32 Fahrenheit
+-40             -40 degrees Celsius is -40 degrees Fahrenheit
+25              25 degrees Celsius is 77 degrees Fahrenheit
