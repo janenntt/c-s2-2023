@@ -11,7 +11,7 @@ int main(void) {
 
   printf(
       "Your name is %s %s, you are %d years old, and your employment fraction "
-      "is %.1f\n",
+      "is %.1f",
       firstName, lastName, age, employmentFraction);
 
   return 0;
