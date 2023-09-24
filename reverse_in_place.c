@@ -5,7 +5,6 @@ int main() {
   char name[21];  // Allocate space for 20 characters plus '\0'
   int i = 0;
 
-  printf("Enter a string (up to 20 characters): ");
   fgets(name, sizeof(name), stdin);
 
   // Convert the string to uppercase
