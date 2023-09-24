@@ -1,22 +1,24 @@
-#include <ctype.h>
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-  char name[21];  // Allocate space for 20 characters plus '\0'
-  int i = 0;
+    char str[21]; // Allocate space for 20 characters plus '\0'
+    int length, i, j;
 
-  fgets(name, sizeof(name), stdin);
+    printf("Enter a string (up to 20 characters): ");
+    scanf("%20s", str);
 
-  // Convert the string to uppercase
-  while (name[i] != '\0' && i < 20) {
-    if (isalpha(name[i])) {
-      name[i] = toupper(name[i]);
+    length = strlen(str);
+
+    // Reverse the string in place
+    for (i = 0, j = length - 1; i < j; i++, j--) {
+        char temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
     }
-    i++;
-  }
 
-  // Print the uppercase string
-  printf("%s\n", name);
+    // Print the reversed string
+    printf("%s\n", str);
 
-  return 0;
+    return 0;
 }
