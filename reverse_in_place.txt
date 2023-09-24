@@ -1,4 +1,4 @@
-input                output
-jennifer             JENNIFER
-joe,smith            JOE,SMITH
-jane                 JANE
+input         output
+Tree          eerT
+goodDay       yaDdoog
+morning       gninrom

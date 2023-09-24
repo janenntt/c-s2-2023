@@ -1,4 +1,4 @@
 input                output
-Jennifer             JENNIFER
-Joe,SmitH            JOE,SMITH
-Jane                 JANE
+jennifer             JENNIFER
+joe,smith            JOE,SMITH
+jane                 JANE
