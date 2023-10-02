@@ -20,8 +20,8 @@ int main(void) {
   int even_index = 0;
   int odd_index = 0;
   // Dynamically allcoate memory for the odd and even integers
-  int* evens = (int*)malloc(count_even * sizeof(int));
-  int* odds = (int*)malloc(count_odd * sizeof(int));
+  int* evens = (int*)malloc(count * sizeof(int));
+  int* odds = (int*)malloc(count * sizeof(int));
   for (int i = 0; i < count; i++) {
     if (integers[i] % 2 == 0) {
       evens[even_index++] = integers[i];
