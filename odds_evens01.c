@@ -35,12 +35,12 @@ int main(void) {
   // print out odd and even integers
 
   for (int i = 0; i < count_odd; i++) {
-    printf("%d ", odds[i]);
+    printf(" %d ", odds[i]);
   }
   printf("\n");
 
   for (int i = 0; i < count_even; i++) {
-    printf(" %d", evens[i]);
+    printf(" %d ", evens[i]);
   }
   printf("\n");
 
