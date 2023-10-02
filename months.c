@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  int month;
+  int month; // declare a variable to store the month number
+  // prompt the user to enter a month as a number
   printf("Enter a month (in number): ");
+  // user a switch statement to determine and print the corresponding month name
   scanf("%d", &month);
   switch (month) {
     case 1:
