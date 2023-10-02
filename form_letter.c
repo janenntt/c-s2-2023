@@ -7,7 +7,8 @@ int main(void) {
   char lastName[11];
   int age;
   float employmentFraction;
-  // prompt user to enter their first name, last name, age , and employment fraction
+  // prompt user to enter their first name, last name, age , and employment
+  // fraction
   scanf("%10s %10s %d %f", firstName, lastName, &age, &employmentFraction);
   // print
   printf(

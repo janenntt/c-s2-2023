@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  int x; // declare x to store the number of years in education
+  int x;  // declare x to store the number of years in education
   // prompt the user to enter the number of years they have spent in education
   printf("Enter the number of years you has spent in education so far: ");
   // read in the user's input
