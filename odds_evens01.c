@@ -40,7 +40,7 @@ int main(void) {
   printf("\n");
 
   for (int i = 0; i < count_even; i++) {
-    printf("%d ", evens[i]);
+    printf(" %d", evens[i]);
   }
   printf("\n");
 
